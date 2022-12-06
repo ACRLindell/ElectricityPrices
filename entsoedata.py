@@ -95,7 +95,7 @@ class DayAheadPrices:
         if zones is None:
             zones = self.zones
         #Insert your API-token below to be able to run script.
-        api_token = "0c4d1c98-01a6-48bb-a44f-40a33d777dba"
+        api_token = "...."
         api_base = f"api?securityToken={api_token}"
         doc_type = "A44"
         start_day = dt.strptime(self.startdate, '%Y%m%d').date()
